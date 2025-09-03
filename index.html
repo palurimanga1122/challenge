@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Clothing Store</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f4f4f4;
+    }
+
+    header {
+      background-color: #333;
+      color: white;
+      padding: 1rem;
+      text-align: center;
+    }
+
+    .container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      padding: 2rem;
+    }
+
+    .item {
+      background-color: white;
+      margin: 1rem;
+      padding: 1rem;
+      width: 250px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+      border-radius: 8px;
+      text-align: center;
+    }
+
+    .item img {
+      width: 100%;
+      border-radius: 6px;
+    }
+
+    .item h3 {
+      margin: 0.5rem 0;
+    }
+
+    .item p {
+      color: #777;
+    }
+
+    .price {
+      font-weight: bold;
+      color: #000;
+    }
+
+    .btn {
+      background-color: #28a745;
+      color: white;
+      padding: 0.5rem 1rem;
+      border: none;
+      margin-top: 0.5rem;
+      cursor: pointer;
+      border-radius: 4px;
+    }
+
+    .btn:hover {
+      background-color: #218838;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Stylish Clothing Store</h1>
+    <p>Trendy clothes for every season</p>
+  </header>
+
+  <div class="container">
+    <div class="item">
+      <img src="https://via.placeholder.com/250x300?text=T-Shirt" alt="T-Shirt">
+      <h3>Classic T-Shirt</h3>
+      <p>100% Cotton, available in all sizes.</p>
+      <div class="price">$19.99</div>
+      <button class="btn">Add to Cart</button>
+    </div>
+
+    <div class="item">
+      <img src="https://via.placeholder.com/250x300?text=Jeans" alt="Jeans">
+      <h3>Blue Jeans</h3>
+      <p>Comfort fit, stylish look.</p>
+      <div class="price">$39.99</div>
+      <button class="btn">Add to Cart</button>
+    </div>
+
+    <div class="item">
+      <img src="https://via.placeholder.com/250x300?text=Jacket" alt="Jacket">
+      <h3>Leather Jacket</h3>
+      <p>Perfect for winter. High quality leather.</p>
+      <div class="price">$89.99</div>
+      <button class="btn">Add to Cart</button>
+    </div>
+
+    <div class="item">
+      <img src="https://via.placeholder.com/250x300?text=Dress" alt="Dress">
+      <h3>Summer Dress</h3>
+      <p>Lightweight and breathable.</p>
+      <div class="price">$29.99</div>
+      <button class="btn">Add to Cart</button>
+    </div>
+  </div>
+
+</body>
+</html>
